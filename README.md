@@ -1,4 +1,4 @@
-# wp-oop-nonces
+# Wordpress Nonce OOP
 Wordpress Nonce implementation in an object orianteted way.
 
 ## Requirements
