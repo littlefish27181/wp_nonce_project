@@ -15,7 +15,12 @@
         "phpunit/phpunit": "5.7.*"
     },
     "license": "MIT",
+    "minimum-stability": "stable",
     "autoload": {
-        "classmap": ["src/"]
+            "classmap": ["src/"]
+    },
+    "autoload-dev": {
+        "classmap": ["test/"],
+        "files": ["test/mockFunctions.php"]
     }
 }
